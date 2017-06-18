@@ -1,24 +1,12 @@
 ---
 layout: header
-title: "home"
+back: true
+folders:
+- url: "/pages/interviews.html"
+  title: interviews
+  date: created on June 18th
+  description: all the people we interviewed
 ---
 
-<section>
-  <h1>{{site.title}}</h1>
-  <h4>{{site.tagline}}</h4>
-</section>
 
-<table>
-<tr>
-    <td>🗁</td>
-    <td><a href="{{ site.url }}/pages/interviews.html">interviews</a></td>
-    <td>created on June 18</td>
-    <td>all the people we interviewed</td></tr>
-<tr>
-    <!--<td>🗁</td>
-    <td><a href="{{ site.url }}/pages/admin.html">admin</a></td>
-    <td>created on June 18</td>
-    <td>all the researches we made</td>
-    </tr>-->
-
-</table>
+{% include table.html page=page %}
