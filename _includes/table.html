@@ -1,0 +1,28 @@
+<table>
+<tbody>
+    {% if include.page.back %}
+  <tr>
+    <td>⏎</td>
+    <td><a href="..">back</a></td>
+      <td></td>
+      <td></td>
+  </tr>
+{% endif %}
+    {% for f in include.page.folders %}
+  <tr>
+    <td>🗁</td>
+    <td><a href="{{ f.file }}">{{ f.title }}</a></td>
+    <td>{{ f.date }}</td>
+    <td>{{ f.description }}</td>
+  </tr>
+{% endfor %}
+{% for f in include.page.links %}
+  <tr>
+    <td>🔗</td>
+    <td><a href="{{ f.url }}">{{ f.title }}</a></td>
+    <td>{{ f.date }}</td>
+    <td>{{ f.description }}</td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>

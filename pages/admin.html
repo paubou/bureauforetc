@@ -1,33 +1,20 @@
 ---
 layout: header
-title: "home"
+back: true
+links:
+- url: https://www.are.na/joao-coutinho/a-book-for-little-aliens-articles
+  title: texts
+  date: created on June 18th
+  description: importants texts
+- url: https://www.are.na/joao-coutinho/a-book-for-little-aliens-images
+  title: images moodboard
+  date: created on June 18th
+  description: moodboard for our books
+- url: https://en.wikipedia.org/wiki/Project_Blue_Book
+  title: blue book
+  date: /
+  description: project blue book, researches from US gouv
 ---
 
-<section>
-  <h1>{{site.title}}</h1>
-  <h4>{{site.tagline}}</h4>
-</section>
 
-<table>
-
-<tr>
-    <td>⏎ <a href="{{ site.url }}/index.html">BACK</a></td>
-    <td>created on June 18</td>
-    <td>all the researches we made</td></tr>
-<tr>
-    <td>🔗 <a href="https://www.are.na/joao-coutinho/a-book-for-little-aliens-articles">texts</td>
-    <td>/</td>
-    <td>importants texts</td>
-</tr>
-<tr>
-    <td>🔗 <a href="https://www.are.na/joao-coutinho/a-book-for-little-aliens-images">moodboard images</a></td>
-    <td>created on June 18</td>
-    <td>images for the visual inspiration</td>
-</tr>
-<tr>
-    <td>🔗 <a href="https://en.wikipedia.org/wiki/Project_Blue_Book">blue book</a></td>
-    <td>created on June 18</td>
-    <td>project blue book</td>
-    </tr>
-    
-</table>
+{% include table.html page=page %}
