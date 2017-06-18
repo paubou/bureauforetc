@@ -11,7 +11,7 @@
     {% for f in include.page.folders %}
   <tr>
     <td>🗁</td>
-    <td><a href="{{ site.url }}/{{ f.url }}">{{ f.title }}</a></td>
+    <td><a href="{{ site.url }}{{ f.url }}">{{ f.title }}</a></td>
     <td>{{ f.date }}</td>
     <td>{{ f.description }}</td>
   </tr>
