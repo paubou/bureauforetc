@@ -12,6 +12,11 @@ body{
 }
 
 table{
-font-family: "monospace";
+    font-family: "monospace";
     margin: 30px;
+    width: 100%;
+}
+
+table tr td:nth-of-type(2) { 
+    width: 20%; 
 }
