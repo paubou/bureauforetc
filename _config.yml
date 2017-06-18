@@ -1,0 +1,8 @@
+title: Bureau for etc.
+tagline: "International Bureau for Extra-Terrestrial Communications, we publish books."
+
+# Use this for production
+#sass:
+#    style: :compressed
+
+exclude: [.scss, node_modules, gruntfile.js, package.json]
