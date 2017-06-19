@@ -8,11 +8,11 @@ None of these variable are being imported anywhere, they're just here for your c
 */
 
 body{
-	margin: 15px;
+	padding: 15px;
+    font-family: monospace;
 }
 
 table{
-    font-family: "monospace";
     margin: 30px;
     width: 100%;
 }
@@ -22,4 +22,35 @@ table tr td:nth-of-type(2) {
 }
 table tr td:nth-of-type(1) { 
     width: 5%; 
+}
+
+div#questions{
+    margin-left: 50px;
+    text-decoration: underline;
+    
+}
+
+div#answer{
+
+    margin: 25px;
+    width: 50%;
+    
+}
+
+a:visited{
+    color: #be1e36;
+}
+
+a:-webkit-any-link{    
+    text-decoration-line: none;
+}
+
+
+a:hover{
+    color: #2a2a2a;
+    text-decoration: underline;
+}
+
+a {
+    color: #5499d6;
 }

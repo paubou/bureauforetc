@@ -1,0 +1,22 @@
+{% for f in include.page.questions %}
+<div id="questions">Describe what you do for work and/or as hobbies.</div>
+
+<div id="answer">{{ f.Q1 }}</div>
+ 
+<div id="questions">Have you ever had an Alien experience? For instance, did you ever feel Alien or had an interaction of some sort with some unearthly life form?</div>
+ 
+<div id="answer">{{ f.Q2 }}</div>
+ 
+<div id="questions">How could your work or interests become handy in case an Alien contacts humankind or yourself?</div>
+ 
+<div id="answer">{{ f.Q3 }}</div>
+ 
+<div id="questions">What would you do as preparation for communicating with an Alien?</div>
+
+<div id="answer">{{ f.Q4 }}</div>
+
+<div id="questions">How would you start a conversation with an Alien?</div>
+
+<div id="answer">{{ f.Q5 }}</div>
+{% endfor %}
+ 
