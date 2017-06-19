@@ -1,4 +1,10 @@
+{% for f in include.page.name %}
+<div id="name">{{ f.name }}</div>
+
+{% endfor %}
+
 {% for f in include.page.questions %}
+
 <div id="questions">Describe what you do for work and/or as hobbies.</div>
 
 <div id="answer">{{ f.Q1 }}</div>
