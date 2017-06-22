@@ -1,0 +1,20 @@
+<table>
+<tbody>
+    {% if include.page.back %}
+  <tr>
+    <td>⏎</td>
+    <td><a href="..">back</a></td>
+      <td></td>
+      <td></td>
+  </tr>
+{% endif %}
+    {% for f in include.page.info %}
+  <tr>
+    <td>↝</td>
+    <td>{{ f.name }}</td>
+    <td>{{ f.status }}</td>
+    <td>{{ f.comment }}</td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
